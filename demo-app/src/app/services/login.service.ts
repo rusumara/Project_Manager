@@ -4,7 +4,7 @@ import {
   HttpClient
 } from '@angular/common/http';
 
-import { Observable } from 'rxjs';
+import { Observable, throwError } from 'rxjs';
 
 const API_URL =
   'http://localhost:8080/login';
@@ -78,18 +78,15 @@ export class LoginService {
 
   refreshToken() {
 
-  const refreshToken =
-    sessionStorage.getItem(
-      'refreshToken'
-    );
-   // if(!refreshToken) {
-    //  return throwError(() => new Error('No refresh token available'));
+    const refreshToken = sessionStorage.getItem('refreshToken');
 
-  return this.http.post<any>(
-    'http://localhost:8080/refresh',
-    {
-      refreshToken
+    if (!refreshToken) {
+      return throwError(() => new Error('No refresh token available'));
     }
-  );
-}
+
+    return this.http.post<any>(
+      'http://localhost:8080/refresh',
+      { refreshToken }
+    );
+  }
 }

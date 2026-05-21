@@ -18,6 +18,9 @@ import { LoginStore } from '../login/login.store';
 import { MatSelectModule } from '@angular/material/select';
 import { CommonModule } from '@angular/common';
 import { PredictionDialogComponent, PredictionDialogData } from '../../components/prediction-dialog/prediction-dialog.component';
+import { AssignDialogComponent, AssignDialogData } from '../../components/assign-dialog/assign-dialog.component';
+import { SkillService } from '../../services/skill.service';
+import { ProjectService } from '../../services/project.service';
 
 @Component({
   selector: 'app-person-list-page',
@@ -32,6 +35,8 @@ export class PersonListPageComponent {
   private readonly loginStore = inject(LoginStore);
   private readonly router = inject(Router);
   private readonly destroyRef = inject(DestroyRef);
+  private readonly skillService = inject(SkillService);
+  private readonly projectService = inject(ProjectService);
 
   protected readonly persons = this.store.persons;
   protected readonly hasError = this.store.hasError;
@@ -42,15 +47,43 @@ protected readonly displayedColumns = ['name', 'age', 'email', 'projects', 'skil
     console.log('ROLE:', this.loginStore.role());
   }
   protected assignSkill(person: Person): void {
-    const skillId = prompt('Enter Skill ID');
-    if (!skillId) return;
-    this.store.assignSkill(person.id, Number(skillId));
+    this.skillService.getAll().pipe(takeUntilDestroyed(this.destroyRef)).subscribe((skills) => {
+      this.dialog
+        .open<AssignDialogComponent, AssignDialogData, string | null>(AssignDialogComponent, {
+          data: {
+            title: `Assign Skill to ${person.name}`,
+            label: 'Skill',
+            items: skills.map((s) => ({ id: String(s.id), label: s.skillName ?? '' })),
+          },
+          width: '320px',
+        })
+        .afterClosed()
+        .pipe(takeUntilDestroyed(this.destroyRef))
+        .subscribe((skillId) => {
+          if (!skillId) return;
+          this.store.assignSkill(person.id, Number(skillId));
+        });
+    });
   }
 
   protected assignProject(person: Person): void {
-    const projectId = prompt('Enter Project ID');
-    if (!projectId) return;
-    this.store.assignProject(person.id, Number(projectId));
+    this.projectService.getAll().pipe(takeUntilDestroyed(this.destroyRef)).subscribe((projects) => {
+      this.dialog
+        .open<AssignDialogComponent, AssignDialogData, string | null>(AssignDialogComponent, {
+          data: {
+            title: `Assign Project to ${person.name}`,
+            label: 'Project',
+            items: projects.map((p) => ({ id: p.id ?? '', label: p.projectName ?? '' })),
+          },
+          width: '320px',
+        })
+        .afterClosed()
+        .pipe(takeUntilDestroyed(this.destroyRef))
+        .subscribe((projectId) => {
+          if (!projectId) return;
+          this.store.assignProject(person.id, projectId);
+        });
+    });
   }
 
   protected isAdmin(): boolean {

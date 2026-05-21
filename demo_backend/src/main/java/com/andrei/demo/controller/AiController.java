@@ -3,9 +3,11 @@ package com.andrei.demo.controller;
 import com.andrei.demo.model.ChatRequest;
 import com.andrei.demo.model.ChatResponse;
 import com.andrei.demo.model.Person;
+import com.andrei.demo.model.PersonResponseDTO;
 import com.andrei.demo.model.PredictionResponse;
 import com.andrei.demo.repository.PersonRepository;
 import com.andrei.demo.service.AiService;
+import com.andrei.demo.service.PersonService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -22,6 +24,7 @@ public class AiController {
 
     private final AiService aiService;
     private final PersonRepository personRepository;
+    private final PersonService personService;
 
     @PostMapping("/predict/{personId}")
     public PredictionResponse predict(@PathVariable UUID personId) {
@@ -41,6 +44,7 @@ public class AiController {
 
     @PostMapping("/chat")
     public ChatResponse chat(@RequestBody ChatRequest request) {
-        return aiService.chat(request.getMessage());
+        List<PersonResponseDTO> people = personService.getPeople();
+        return aiService.chat(request.getMessage(), List.copyOf(people));
     }
 }

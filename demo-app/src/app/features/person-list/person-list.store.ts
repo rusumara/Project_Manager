@@ -86,7 +86,7 @@ export class PersonListStore {
     });
 }
 
-assignProject(personId: string, projectId: number): void {
+assignProject(personId: string, projectId: string): void {
 
   this.personService
     .assignProject(personId, projectId)

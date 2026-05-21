@@ -67,7 +67,7 @@ public class PersonController {
         return personService.addSkillToPerson(uuid, skillId);
     }
 
-    @PutMapping("/{personId}/skills/{skillId}")
+    @PutMapping("/person/{personId}/skills/{skillId}")
     public Person assignSkill(
             @PathVariable UUID personId,
             @PathVariable Integer skillId
@@ -75,7 +75,7 @@ public class PersonController {
         return personService.assignSkill(personId, skillId);
     }
 
-    @PutMapping("/{personId}/projects/{projectId}")
+    @PutMapping("/person/{personId}/projects/{projectId}")
     public Person assignProject(
             @PathVariable UUID personId,
             @PathVariable UUID projectId

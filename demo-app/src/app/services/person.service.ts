@@ -32,7 +32,7 @@ export class PersonService {
   );
 }
 
-assignProject(personId: string, projectId: number) {
+assignProject(personId: string, projectId: string) {
 
   return this.http.put(
     `${API_URL}/${personId}/projects/${projectId}`,

@@ -1,6 +1,5 @@
 package com.andrei.demo.service;
 
-import com.andrei.demo.model.ChatRequest;
 import com.andrei.demo.model.ChatResponse;
 import com.andrei.demo.model.PredictionResponse;
 import lombok.RequiredArgsConstructor;
@@ -40,11 +39,11 @@ public class AiService {
         }
     }
 
-    public ChatResponse chat(String message) {
+    public ChatResponse chat(String message, List<Object> people) {
         try {
-            ChatRequest request = new ChatRequest(message);
+            Map<String, Object> requestBody = Map.of("message", message, "people", people);
             ChatResponse response = restTemplate.postForObject(
-                    aiServiceUrl + "/chat", request, ChatResponse.class);
+                    aiServiceUrl + "/chat", requestBody, ChatResponse.class);
             if (response == null) {
                 return new ChatResponse("AI service is currently unavailable. Please try again later.");
             }

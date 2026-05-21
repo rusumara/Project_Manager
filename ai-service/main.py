@@ -1,17 +1,14 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from typing import List
+from typing import List, Any, Dict
 import joblib
 import numpy as np
-import requests
 import re
 
 app = FastAPI()
 
 clf = joblib.load("model.pkl")
 mlb = joblib.load("binarizer.pkl")
-
-SPRING_BOOT_URL = "http://localhost:8080"
 
 
 class PredictRequest(BaseModel):
@@ -25,6 +22,7 @@ class PredictResponse(BaseModel):
 
 class ChatRequest(BaseModel):
     message: str
+    people: List[Dict[str, Any]] = []
 
 
 class ChatResponse(BaseModel):
@@ -53,17 +51,15 @@ def fetch_people():
 @app.post("/chat", response_model=ChatResponse)
 def chat(req: ChatRequest):
     msg = req.message.strip()
+    people = req.people  # list of PersonResponseDTO: {name, email, skills: [str], projects: [str]}
 
     m = re.search(r"who has (.+)", msg, re.IGNORECASE)
     if m:
         skill = m.group(1).strip().rstrip("?")
-        people = fetch_people()
-        if people is None:
-            return ChatResponse(answer="Could not reach the backend service.")
         matches = [
             f"{p['name']} ({p['email']})"
             for p in people
-            if any(s.get("skillName", "").lower() == skill.lower() for s in p.get("skills", []))
+            if any(s.lower() == skill.lower() for s in p.get("skills", []))
         ]
         if matches:
             return ChatResponse(answer=f"People with {skill}: {', '.join(matches)}")
@@ -72,12 +68,9 @@ def chat(req: ChatRequest):
     m = re.search(r"what skills does (.+?) have", msg, re.IGNORECASE)
     if m:
         name = m.group(1).strip().rstrip("?")
-        people = fetch_people()
-        if people is None:
-            return ChatResponse(answer="Could not reach the backend service.")
         for p in people:
             if p["name"].lower() == name.lower():
-                skills = [s["skillName"] for s in p.get("skills", [])]
+                skills = p.get("skills", [])
                 if skills:
                     return ChatResponse(answer=f"{p['name']}'s skills: {', '.join(skills)}")
                 return ChatResponse(answer=f"{p['name']} has no skills assigned.")
@@ -86,12 +79,9 @@ def chat(req: ChatRequest):
     m = re.search(r"what projects does (.+?) have", msg, re.IGNORECASE)
     if m:
         name = m.group(1).strip().rstrip("?")
-        people = fetch_people()
-        if people is None:
-            return ChatResponse(answer="Could not reach the backend service.")
         for p in people:
             if p["name"].lower() == name.lower():
-                projects = [pr["name"] for pr in p.get("projects", [])]
+                projects = p.get("projects", [])
                 if projects:
                     return ChatResponse(answer=f"{p['name']}'s projects: {', '.join(projects)}")
                 return ChatResponse(answer=f"{p['name']} has no projects assigned.")
@@ -100,13 +90,10 @@ def chat(req: ChatRequest):
     m = re.search(r"who works on (.+)", msg, re.IGNORECASE)
     if m:
         project_name = m.group(1).strip().rstrip("?")
-        people = fetch_people()
-        if people is None:
-            return ChatResponse(answer="Could not reach the backend service.")
         matches = [
             f"{p['name']} ({p['email']})"
             for p in people
-            if any(pr.get("name", "").lower() == project_name.lower() for pr in p.get("projects", []))
+            if any(pr.lower() == project_name.lower() for pr in p.get("projects", []))
         ]
         if matches:
             return ChatResponse(answer=f"People on {project_name}: {', '.join(matches)}")
