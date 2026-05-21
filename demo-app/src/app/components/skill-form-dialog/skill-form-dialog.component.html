@@ -1,0 +1,23 @@
+<h2 mat-dialog-title>{{ data.title }}</h2>
+
+<mat-dialog-content>
+  <form [formGroup]="form" novalidate>
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Skill Name</mat-label>
+      <input matInput formControlName="skillName" />
+      @if (form.controls.skillName.touched && form.controls.skillName.hasError('required')) {
+        <mat-error>Skill name is required.</mat-error>
+      }
+      @if (form.controls.skillName.touched && form.controls.skillName.hasError('minlength')) {
+        <mat-error>Skill name must be at least 2 characters.</mat-error>
+      }
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button type="button" (click)="cancel()">Cancel</button>
+  <button mat-flat-button type="button" (click)="submit()">
+    {{ data.submitLabel ?? 'Save' }}
+  </button>
+</mat-dialog-actions>

@@ -1,0 +1,35 @@
+<h2 mat-dialog-title>{{ data.title }}</h2>
+
+<mat-dialog-content>
+  <form [formGroup]="form" novalidate>
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Project Name</mat-label>
+      <input matInput formControlName="projectName" />
+      @if (form.controls.projectName.touched && form.controls.projectName.hasError('required')) {
+        <mat-error>Project name is required.</mat-error>
+      }
+      @if (form.controls.projectName.touched && form.controls.projectName.hasError('minlength')) {
+        <mat-error>Project name must be at least 2 characters.</mat-error>
+      }
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Owner</mat-label>
+      <mat-select formControlName="personId">
+        @for (person of data.people; track person.id) {
+          <mat-option [value]="person.id">{{ person.name }}</mat-option>
+        }
+      </mat-select>
+      @if (form.controls.personId.touched && form.controls.personId.hasError('required')) {
+        <mat-error>Owner is required.</mat-error>
+      }
+    </mat-form-field>
+  </form>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button type="button" (click)="cancel()">Cancel</button>
+  <button mat-flat-button type="button" (click)="submit()">
+    {{ data.submitLabel ?? 'Save' }}
+  </button>
+</mat-dialog-actions>
