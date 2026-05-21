@@ -19,14 +19,16 @@ public class ProjectService {
 
     private final ProjectRepository projectRepository;
     private final PersonRepository personRepository;
+    private final AuditService auditService;
 
     public Project createProject(UUID personId, Project project) {
         Person person = personRepository.findById(personId)
                 .orElseThrow(() -> new ResourceNotFoundException("Person not found"));
-
         project.setPerson(person);
         person.getProjects().add(project);
-        return projectRepository.save(project);
+        Project saved = projectRepository.save(project);
+        auditService.log("CREATE_PROJECT", person.getEmail());
+        return saved;
     }
 
     public List<Project> getAll() {
@@ -34,6 +36,9 @@ public class ProjectService {
     }
 
     public void delete(UUID id) {
+        Project project = getById(id);
+        auditService.log("DELETE_PROJECT",
+                project.getPerson() != null ? project.getPerson().getEmail() : "UNKNOWN");
         projectRepository.deleteById(id);
     }
 
@@ -45,26 +50,24 @@ public class ProjectService {
     public Project update(UUID id, Project updated) {
         Project existing = getById(id);
         existing.setProjectName(updated.getProjectName());
-        return projectRepository.save(existing);
+        Project saved = projectRepository.save(existing);
+        auditService.log("UPDATE_PROJECT",
+                saved.getPerson() != null ? saved.getPerson().getEmail() : "UNKNOWN");
+        return saved;
     }
 
     @Transactional
     public Project assignProjectToPerson(UUID projectId, UUID personId) throws ValidationException {
-
         Project project = projectRepository.findById(projectId)
                 .orElseThrow(() -> new ResourceNotFoundException("Project not found"));
-
-        // ✅ FIXED HERE
         Person person = personRepository.findById(personId)
                 .orElseThrow(() -> new ResourceNotFoundException("Person not found"));
-
         if (project.getPerson() != null) {
             throw new ValidationException("Project already has an owner!");
         }
-
         project.setPerson(person);
         person.getProjects().add(project);
-
+        auditService.log("ASSIGN_PROJECT", person.getEmail());
         return projectRepository.save(project);
     }
 }

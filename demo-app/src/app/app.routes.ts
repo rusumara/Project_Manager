@@ -95,6 +95,13 @@ export const routes: Routes = [
       .then(m => m.ResetPassword)
 },
   {
+    path: 'admin/audit-logs',
+    canActivate: [authGuard],
+    loadComponent: () =>
+      import('./features/audit-logs/audit-log-list-page.component')
+        .then(m => m.AuditLogListPageComponent),
+  },
+  {
     path: '**',
     redirectTo: 'error',
   },

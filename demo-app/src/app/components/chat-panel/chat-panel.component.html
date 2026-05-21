@@ -1,0 +1,53 @@
+<!-- Toggle button -->
+<button
+  mat-icon-button
+  class="chat-toggle"
+  (click)="toggle()"
+  aria-label="Toggle chat"
+>
+  <mat-icon>{{ isOpen() ? 'close' : 'chat_bubble' }}</mat-icon>
+</button>
+
+<!-- Panel -->
+@if (isOpen()) {
+  <div class="chat-panel" role="region" aria-label="AI Chatbot">
+    <div class="chat-header">
+      <span>Ask AI</span>
+    </div>
+
+    <div class="message-list" #messageList>
+      @if (messages().length === 0) {
+        <p class="hint">Try: "who has Java?" or "what skills does Ana have?"</p>
+      }
+      @for (msg of messages(); track $index) {
+        <div class="message" [class.user]="msg.role === 'user'" [class.bot]="msg.role === 'bot'">
+          {{ msg.text }}
+        </div>
+      }
+      @if (isSending()) {
+        <div class="message bot typing">...</div>
+      }
+    </div>
+
+    <div class="chat-input-row">
+      <input
+        class="chat-input"
+        type="text"
+        placeholder="Ask a question..."
+        [value]="inputText()"
+        (input)="setInput($any($event.target).value)"
+        (keydown)="onKeydown($event)"
+        [disabled]="isSending()"
+        aria-label="Chat input"
+      />
+      <button
+        mat-icon-button
+        (click)="send()"
+        [disabled]="!inputText().trim() || isSending()"
+        aria-label="Send"
+      >
+        <mat-icon>send</mat-icon>
+      </button>
+    </div>
+  </div>
+}

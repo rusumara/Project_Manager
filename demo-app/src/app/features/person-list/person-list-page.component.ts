@@ -17,6 +17,7 @@ import { Router } from '@angular/router';
 import { LoginStore } from '../login/login.store';
 import { MatSelectModule } from '@angular/material/select';
 import { CommonModule } from '@angular/common';
+import { PredictionDialogComponent, PredictionDialogData } from '../../components/prediction-dialog/prediction-dialog.component';
 
 @Component({
   selector: 'app-person-list-page',
@@ -63,6 +64,17 @@ protected isUser(): boolean {
   protected logout(): void {
     this.loginStore.logout();
     void this.router.navigate(['/login']);
+  }
+
+  protected goToAuditLogs(): void {
+    void this.router.navigate(['/admin/audit-logs']);
+  }
+
+  protected openPredictDialog(person: Person): void {
+    this.dialog.open<PredictionDialogComponent, PredictionDialogData>(
+      PredictionDialogComponent,
+      { data: { personId: person.id, personName: person.name }, width: '400px' }
+    );
   }
 
   protected openCreateDialog(): void {

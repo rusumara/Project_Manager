@@ -1,4 +1,9 @@
-/* App shell styles */
-:host {
-  display: block;
+.theme-toggle {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  background-color: var(--mat-sys-surface-container-high);
+  color: var(--mat-sys-on-surface);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }

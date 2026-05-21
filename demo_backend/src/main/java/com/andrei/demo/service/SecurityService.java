@@ -14,6 +14,8 @@ import java.time.LocalDateTime;
 import java.util.Optional;
 import java.util.UUID;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.server.ResponseStatusException;
 @Service
 @AllArgsConstructor
 public class SecurityService {
@@ -99,47 +101,25 @@ public class SecurityService {
         );
     }
 
-    public LoginResponse refreshToken(
-            String token
-    ) {
+    @Transactional
+    public LoginResponse refreshToken(String token) {
+        RefreshToken refreshToken = refreshTokenRepository
+                .findByToken(token)
+                .orElseThrow(() -> new ResponseStatusException(
+                        HttpStatus.UNAUTHORIZED, "Refresh token not found"));
 
-        RefreshToken refreshToken =
-                refreshTokenRepository
-                        .findByToken(token)
-                        .orElseThrow(
-                                () -> new RuntimeException(
-                                        "Refresh token not found"
-                                )
-                        );
-
-        if (refreshToken.getExpiryDate()
-                .isBefore(LocalDateTime.now())) {
-
-            throw new RuntimeException(
-                    "Refresh token expired"
-            );
+        if (refreshToken.getExpiryDate().isBefore(LocalDateTime.now())) {
+            refreshTokenRepository.delete(refreshToken);
+            auditService.log("REFRESH_TOKEN_EXPIRED", refreshToken.getPerson().getEmail());
+            throw new ResponseStatusException(
+                    HttpStatus.UNAUTHORIZED, "Refresh token expired");
         }
 
-        Person person =
-                refreshToken.getPerson();
+        Person person = refreshToken.getPerson();
+        UserRole role = person.getRole() != null ? person.getRole() : UserRole.USER;
+        String newAccessToken = jwtService.generateToken(person.getEmail(), role);
 
-        UserRole role =
-                person.getRole() != null
-                        ? person.getRole()
-                        : UserRole.USER;
-
-        String newAccessToken =
-                jwtService.generateToken(
-                        person.getEmail(),
-                        role
-                );
-
-        return new LoginResponse(
-                true,
-                newAccessToken,
-                refreshToken.getToken(),
-                role.name(),
-                null
-        );
+        auditService.log("REFRESH_TOKEN_USED", person.getEmail());
+        return new LoginResponse(true, newAccessToken, refreshToken.getToken(), role.name(), null);
     }
 }

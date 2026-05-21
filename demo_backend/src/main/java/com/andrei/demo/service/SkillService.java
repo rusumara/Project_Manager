@@ -16,9 +16,12 @@ import java.util.List;
 public class SkillService {
     private final SkillRepository skillRepository;
     private final PersonRepository personRepository;
+    private final AuditService auditService;
 
     public Skill create(Skill skill) {
-        return skillRepository.save(skill);
+        Skill saved = skillRepository.save(skill);
+        auditService.log("CREATE_SKILL", "ADMIN");
+        return saved;
     }
 
     public List<Skill> getAll() {
@@ -29,13 +32,11 @@ public class SkillService {
     public void delete(Integer id) {
         Skill skill = skillRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Skill not found"));
-
-        // Remove this skill from all people who have it (cleans up person_skills join table)
         for (Person person : skill.getPeople()) {
             person.getSkills().remove(skill);
         }
         skill.getPeople().clear();
-
+        auditService.log("DELETE_SKILL", "ADMIN");
         skillRepository.delete(skill);
     }
 
@@ -43,11 +44,12 @@ public class SkillService {
         return skillRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("Skill not found"));
     }
+
     public Skill update(Integer id, Skill updated) {
         Skill existing = getById(id);
-
         existing.setSkillName(updated.getSkillName());
-
-        return skillRepository.save(existing);
+        Skill saved = skillRepository.save(existing);
+        auditService.log("UPDATE_SKILL", "ADMIN");
+        return saved;
     }
 }

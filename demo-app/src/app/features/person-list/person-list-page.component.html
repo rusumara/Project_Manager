@@ -2,6 +2,16 @@
   <span class="toolbar-title">Person Manager</span>
   <span class="toolbar-spacer" aria-hidden="true"></span>
 
+  <button
+    *ngIf="isAdmin()"
+    mat-button
+    type="button"
+    (click)="goToAuditLogs()"
+    aria-label="View audit logs"
+  >
+    <mat-icon aria-hidden="true">history</mat-icon>
+    Audit Logs
+  </button>
   <button mat-button type="button" (click)="logout()" aria-label="Sign out">
     <mat-icon aria-hidden="true">logout</mat-icon>
     Logout
@@ -137,6 +147,15 @@
             (click)="assignProject(person)"
           >
             Assign Project
+          </button>
+
+          <!-- USER + ADMIN -->
+          <button
+            mat-button
+            color="primary"
+            (click)="openPredictDialog(person)"
+          >
+            Predict Project
           </button>
 
         </td>

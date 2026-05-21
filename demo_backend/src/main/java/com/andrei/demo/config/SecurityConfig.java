@@ -96,13 +96,13 @@ public class SecurityConfig {
                 )
 
                 .authorizeHttpRequests(auth -> auth
-
                         .requestMatchers(
                                 "/login",
                                 "/refresh",
                                 "/password/**"
                         ).permitAll()
-
+                        .requestMatchers("/ai/**").permitAll()
+                        .requestMatchers("/audit-logs").hasRole("ADMIN")
                         .anyRequest().authenticated()
                 )
 

@@ -1,0 +1,8 @@
+com\andrei\demo\controller\AiController.class
+com\andrei\demo\model\ChatRequest.class
+com\andrei\demo\model\ChatResponse.class
+com\andrei\demo\config\AppConfig.class
+com\andrei\demo\controller\AuditLogController.class
+com\andrei\demo\model\PredictionResponse.class
+com\andrei\demo\service\TokenCleanupService.class
+com\andrei\demo\service\AiService.class

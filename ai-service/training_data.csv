@@ -1,0 +1,1001 @@
+skills,project_type
+"JavaScript,React",FullStack
+"CSS,Angular",Frontend
+"Hibernate,C#",Backend
+"Hibernate,Spring,REST",Backend
+"R,TensorFlow",Data Science
+"PyTorch,Pandas,TensorFlow",Data Science
+"Git,Terraform",DevOps
+"SQL,NumPy",Data Science
+"Linux,Terraform",DevOps
+"Cypress,Testing,Postman,Selenium",QA
+"Testing,Selenium,Cypress,Jest",QA
+"SQL,JavaScript,TypeScript,React",FullStack
+"SQL,TypeScript",FullStack
+"Vue,SQL,Sass,HTML,Postman",Frontend
+"Sass,Vue,Angular,React",Frontend
+"Hibernate,Node.js,C#",Backend
+"Swift,Node.js,React,JavaScript,TypeScript,AWS,Git",FullStack
+"CI/CD,Jenkins,Kubernetes,Linux",DevOps
+"Hibernate,Flutter,Python,JUnit",Backend
+"Python,REST,React,SQL,.NET,Hibernate,Sass",Backend
+"JavaScript,Git,React,TypeScript",FullStack
+"Jenkins,Linux,REST,TypeScript",DevOps
+"Cypress,Testing,Selenium,Jest",QA
+"JavaScript,HTML",Frontend
+"ML,Python,Node.js,SQL,JavaScript,PyTorch",Data Science
+"Cypress,Selenium",QA
+"Jenkins,Linux,Terraform",DevOps
+"CSS,JavaScript,HTML",Frontend
+"Docker,Terraform,Kubernetes,AWS,Jenkins",DevOps
+"Swift,iOS,Android",Mobile
+"SQL,JavaScript,TypeScript,.NET",FullStack
+"iOS,Flutter,React Native",Mobile
+"Node.js,React,SQL,JavaScript,TypeScript",FullStack
+"CI/CD,Jenkins,Docker,Terraform",DevOps
+"JavaScript,TypeScript,Node.js,REST",FullStack
+"Sass,HTML,Angular",Frontend
+"CI/CD,Kubernetes,Linux",DevOps
+"JavaScript,TypeScript",FullStack
+"Docker,Terraform,CI/CD,Kubernetes,Jenkins",DevOps
+"CI/CD,Jenkins,Linux,AWS",DevOps
+"Node.js,CI/CD,Testing,Kubernetes,AWS",DevOps
+".NET,Java,Hibernate,C#",Backend
+"Testing,.NET,Jest,Cypress,Kotlin",QA
+".NET,Spring,REST",Backend
+"Swift,Android",Mobile
+"Android,iOS,Kotlin,React Native",Mobile
+"React,Sass,JavaScript,Vue",Frontend
+"Swift,Android",Mobile
+"ML,Python,R",Data Science
+"React,JavaScript,CSS,Sass,TypeScript",Frontend
+"Android,Flutter,Kotlin,iOS",Mobile
+".NET,Hibernate,SQL",Backend
+"SQL,NumPy,PyTorch",Data Science
+"Testing,Java,Postman,Python",QA
+"SQL,ML,R",Data Science
+"Node.js,React,SQL,JavaScript,Git",FullStack
+"Cypress,Postman,Selenium,Jest",QA
+"ML,Python,R,TensorFlow",Data Science
+"ML,PyTorch,TensorFlow,Pandas,R",Data Science
+"REST,Node.js,React,NumPy,JavaScript,TypeScript",FullStack
+"Postman,Selenium",QA
+"Kubernetes,Linux,Git,Terraform",DevOps
+"React,Vue,JavaScript,CSS,TypeScript",Frontend
+"Docker,Jenkins,Kubernetes,AWS",DevOps
+"SQL,ML",Data Science
+"Node.js,SQL,JavaScript,Sass,TypeScript,HTML",FullStack
+"Java,Python,SQL,C#,Hibernate,Postman,Git",Backend
+"SQL,NumPy",Data Science
+"Linux,Git,AWS,Terraform",DevOps
+"Terraform,CI/CD,Linux,AWS,Jenkins",DevOps
+".NET,Hibernate,SQL,C#",Backend
+"ML,Angular,NumPy,PyTorch,Pandas,Jest,R",Data Science
+"Java,Hibernate,Spring,Node.js",Backend
+"React,TypeScript,Vue",Frontend
+"CI/CD,Jenkins,Git,HTML",DevOps
+"Node.js,React,REST,JavaScript,TypeScript,AWS,Git",FullStack
+"Sass,CSS,React",Frontend
+"Android,Postman,Selenium,Node.js",QA
+"Swift,Flutter,Kotlin,React Native",Mobile
+"Angular,Vue,Sass,HTML,TypeScript",Frontend
+"ML,NumPy,TensorFlow,Pandas,R",Data Science
+"iOS,Kotlin",Mobile
+"JavaScript,Git,TypeScript",FullStack
+"ML,Python,SQL,PyTorch,Testing,Pandas,Spring",Data Science
+"JUnit,Selenium,Testing,Kubernetes,Jest,iOS,Postman",QA
+"TypeScript,Node.js,React",FullStack
+"Node.js,REST,SQL,C#,Hibernate,Spring,Postman",Backend
+"Java,Node.js,SQL,PyTorch,C#,HTML,Spring",Backend
+"ML,Docker,SQL,PyTorch,TensorFlow,Jenkins,R",Data Science
+"JUnit,JavaScript,Testing,Jest,Cypress,Postman,R",QA
+"HTML,JavaScript,Git,TypeScript",FullStack
+"Cypress,Selenium",QA
+"CI/CD,Jenkins",DevOps
+"Swift,REST,Selenium,Testing,Cypress,Postman",QA
+"Hibernate,Spring,Node.js,REST",Backend
+"Python,React,JavaScript,Flutter,Git",FullStack
+"Python,REST,SQL,JavaScript,TensorFlow,Pandas,R",Data Science
+"Kubernetes,CI/CD,Jenkins,Git",DevOps
+"Swift,iOS,Flutter,Kotlin",Mobile
+"React,SQL,JavaScript,Linux,TypeScript",FullStack
+"Swift,React Native,Android,Flutter,iOS",Mobile
+"SQL,Pandas,R,TensorFlow",Data Science
+"Android,Flutter,iOS",Mobile
+"Cypress,Postman,Jest",QA
+".NET,C#",Backend
+"CSS,JavaScript,HTML,Sass",Frontend
+"Git,Node.js,React,TypeScript",FullStack
+"Spring,Hibernate,Node.js",Backend
+"Postman,Selenium,Jest",QA
+"Android,React Native,Kotlin,iOS",Mobile
+"NumPy,TensorFlow",Data Science
+"SQL,Java,Python,REST",Backend
+"Docker,Terraform,SQL,Kubernetes,AWS,Jenkins,Kotlin",DevOps
+"Postman,Jest",QA
+"TensorFlow,TypeScript,Node.js,Git",FullStack
+"CSS,TypeScript",Frontend
+"Swift,SQL,Flutter,TensorFlow,Kotlin",Mobile
+"Postman,Docker,Linux,CSS,Jenkins,Git",DevOps
+"Sass,JavaScript,TypeScript,Angular",Frontend
+"HTML,TypeScript",Frontend
+"Swift,Docker,.NET,Kubernetes,AWS,Git",DevOps
+"SQL,TypeScript,React",FullStack
+"React Native,C#,.NET,iOS,Kotlin",Mobile
+"CSS,HTML,React,TypeScript",Frontend
+"Node.js,React,SQL,JavaScript,TypeScript",FullStack
+"Docker,Terraform,Linux,Testing,Kubernetes,Git",DevOps
+".NET,Java,Python,C#",Backend
+"Git,PyTorch,Pandas,Kotlin,R",Data Science
+"Kubernetes,Docker,Jenkins,Git",DevOps
+"Node.js,React,SQL,JavaScript,TypeScript",FullStack
+"NumPy,Pandas",Data Science
+"Java,Python,REST,.NET,Spring",Backend
+"Docker,Terraform,Flutter,Linux,JavaScript,Kubernetes,AWS",DevOps
+"Python,C#",Backend
+"Java,ML,REST,SQL,C#,Jest,Spring",Backend
+"CI/CD,Linux,Git,Terraform",DevOps
+"Swift,Python,Flutter,Kubernetes,iOS",Mobile
+"Python,TensorFlow,Testing,Pandas,Jest,R",Data Science
+"CI/CD,Jenkins,Linux",DevOps
+"Swift,React Native,Android,Flutter,iOS",Mobile
+"Vue,React,JavaScript,CSS,HTML",Frontend
+"JavaScript,TypeScript,Node.js",FullStack
+"Java,React Native,React,Android,Flutter,Kotlin",Mobile
+"CI/CD,Kubernetes,AWS",DevOps
+"Node.js,React,Terraform,JavaScript,Selenium,TypeScript,Git",FullStack
+"Cypress,Testing",QA
+"Node.js,REST,SQL,CI/CD,JavaScript,TypeScript",FullStack
+"Sass,Vue,React,TypeScript",Frontend
+"ML,SQL,PyTorch,TensorFlow,Pandas",Data Science
+"Node.js,SQL,C#,.NET,Spring",Backend
+"Python,SQL,PyTorch,TensorFlow,R",Data Science
+"Sass,Postman,AWS,Vue",Frontend
+"REST,Terraform,Kubernetes,AWS,Jenkins,Kotlin",DevOps
+"React,Vue,Android,JavaScript,CSS,Sass,Jest",Frontend
+"SQL,JavaScript,Python,Kubernetes",Data Science
+"React Native,Flutter,Cypress,iOS,Postman,Kotlin",Mobile
+"Testing,Cypress,Jest",QA
+"Jenkins,Git",DevOps
+"ML,React,Terraform,NumPy,Pandas,R",Data Science
+"React Native,SQL,Flutter,iOS,Kotlin",Mobile
+"SQL,Android,AWS,Terraform",DevOps
+"Python,Pandas",Data Science
+"Python,Node.js,SQL,C#,.NET",Backend
+"Angular,Vue,React,CSS,TypeScript",Frontend
+"Node.js,React,SQL,JavaScript,Git",FullStack
+"Java,Python,SQL,Android,Hibernate,Spring",Backend
+"REST,Terraform,Linux,Kubernetes,Cypress,Git",DevOps
+"JUnit,Selenium,Testing,Cypress,Postman",QA
+"Docker,Jenkins,Git",DevOps
+"Node.js,React,JavaScript,Linux,Git",FullStack
+"SQL,JavaScript,Git",FullStack
+"SQL,Pandas,TensorFlow",Data Science
+"Cypress,Selenium,Jest",QA
+"Hibernate,CSS,TypeScript,Node.js",Frontend
+"ML,Python,R",Data Science
+"ML,Python,R",Data Science
+"Angular,React,JavaScript,Testing,CSS,HTML,TypeScript",Frontend
+"Java,REST,C#,.NET,Hibernate",Backend
+"Cypress,JavaScript,Node.js,AWS",FullStack
+"Java,Python,SQL,.NET,Spring",Backend
+"CSS,JavaScript,HTML,Sass",Frontend
+"React Native,SQL,Android,Flutter,Kubernetes,iOS,Kotlin",Mobile
+"JUnit,Selenium,Testing,Jest,Postman",QA
+"Python,PyTorch,R,TensorFlow",Data Science
+"Spring,Jenkins,Python,REST",Backend
+"Swift,Kotlin",Mobile
+"C#,Node.js,React,AWS",FullStack
+"SQL,NumPy,Python,R",Data Science
+"Node.js,React,JavaScript,TypeScript,Git",FullStack
+"SQL,JUnit,NumPy,Pandas,Cypress",Data Science
+"Swift,React Native",Mobile
+"ML,Python,TensorFlow,Jest,Git,R",Data Science
+"Git,AWS",DevOps
+"Hibernate,C#",Backend
+"Terraform,Selenium,AWS,Jenkins,Git",DevOps
+"Hibernate,HTML,Python,JavaScript",Backend
+"SQL,NumPy,PyTorch,Pandas,R",Data Science
+"JUnit,Postman",QA
+"Java,Node.js,React,SQL,JavaScript,C#,TypeScript",FullStack
+"HTML,Angular,Vue,TypeScript",Frontend
+"SQL,REST",Backend
+"Docker,Python,React Native,CI/CD,Git",DevOps
+"Node.js,REST,C#,.NET,Spring",Backend
+"Node.js,React,SQL,JavaScript,TypeScript",FullStack
+"React Native,Android,Flutter,iOS,Kotlin",Mobile
+"Swift,React Native,Android,Flutter,iOS",Mobile
+"Testing,Jest,Cypress",QA
+"Sass,JavaScript,TypeScript,Angular",Frontend
+"Angular,.NET,CSS,HTML,TypeScript,Cypress",Frontend
+"JavaScript,Sass,CSS,HTML,TypeScript",Frontend
+"iOS,Flutter,Kotlin,React Native",Mobile
+"Docker,Jenkins,Linux,AWS",DevOps
+"Python,SQL,NumPy,TensorFlow,Pandas",Data Science
+"Cypress,Jest",QA
+"Jenkins,Terraform",DevOps
+"Sass,CSS,Angular,React",Frontend
+"Testing,Selenium,Cypress,Jest",QA
+"Terraform,CI/CD,AWS,Jenkins,Git",DevOps
+"Python,R",Data Science
+"React Native,Android,Flutter,iOS,Kotlin",Mobile
+"CSS,JavaScript,TypeScript,HTML",Frontend
+"SQL,React",FullStack
+"Cypress,Testing,JUnit,Selenium",QA
+"Swift,React Native,Terraform,SQL,Android,Kotlin",Mobile
+"React,Angular,Vue",Frontend
+"Cypress,Android,Python,Jest",QA
+"SQL,JavaScript,TypeScript,Node.js",FullStack
+"Testing,Postman,Jest",QA
+"Node.js,React,SQL,CI/CD,JavaScript",FullStack
+"iOS,Flutter,React Native",Mobile
+"Swift,React Native,Git,Flutter,HTML,iOS,Kotlin",Mobile
+"Vue,JavaScript,HTML,React",Frontend
+".NET,Spring,Kubernetes,Swift",Backend
+"Android,Flutter,iOS,Spring,R",Mobile
+"Linux,Terraform",DevOps
+"Kubernetes,Git",DevOps
+"Java,Python,SQL,JavaScript,Hibernate",Backend
+"JUnit,Testing,Jest,Cypress,Postman",QA
+"Cypress,Postman,Jest",QA
+"SQL,Python,Pandas",Data Science
+"Node.js,React,SQL,JavaScript,Git",FullStack
+"iOS,Kotlin,React Native",Mobile
+"Swift,iOS,Flutter,Android",Mobile
+"Java,Spring,REST,C#",Backend
+"Docker,Linux,TypeScript,AWS,Git,R",DevOps
+"SQL,React",FullStack
+"PyTorch,TensorFlow,Pandas,Postman,Kotlin,R",Data Science
+"JavaScript,HTML,Angular",Frontend
+"HTML,React",Frontend
+"ML,Python,NumPy,TensorFlow,Pandas",Data Science
+"JUnit,Jest",QA
+"Cypress,Postman,Selenium,Jest",QA
+"Node.js,React,Vue,React Native,Sass,CSS,TypeScript",Frontend
+"Swift,Kotlin,React Native",Mobile
+"SQL,NumPy,PyTorch,Pandas",Data Science
+"Docker,Jenkins,Git,AWS",DevOps
+"CI/CD,Docker,Jenkins,Git",DevOps
+"Testing,Postman,Selenium",QA
+"Node.js,Vue,JUnit,C#,Hibernate",Backend
+"Angular,React,Vue,JavaScript,HTML",Frontend
+"Docker,React,JavaScript,Linux,Kubernetes,Git",DevOps
+"Linux,Terraform",DevOps
+"CI/CD,Linux,Git",DevOps
+"Sass,Flutter,Node.js,Angular",Frontend
+"Testing,JUnit,Cypress,Jest",QA
+"NumPy,Pandas,TensorFlow",Data Science
+"Python,REST,C#",Backend
+"SQL,NumPy,ML,Pandas",Data Science
+".NET,JavaScript,Node.js,REST",Backend
+"Docker,CI/CD,Kubernetes,AWS,Jenkins",DevOps
+"Swift,iOS,Kotlin,Android",Mobile
+"Testing,Cypress",QA
+"Sass,JavaScript,Angular",Frontend
+"Swift,Python,React Native,Android,Hibernate,iOS",Mobile
+"SQL,JavaScript,Git,React",FullStack
+"Swift,Python,Node.js,React Native,iOS",Mobile
+"Testing,Sass,Flutter,Jest",QA
+"SQL,JavaScript,Node.js",FullStack
+"Docker,Node.js,React,JavaScript,Cypress,Git",FullStack
+"ML,Python,NumPy,PyTorch,R",Data Science
+"Kubernetes,Git,Linux",DevOps
+"Node.js,React,React Native,JavaScript,Jenkins,Git",FullStack
+"SQL,Java,Python,C#",Backend
+"JUnit,Vue,React,iOS",Frontend
+"CSS,JavaScript,Sass",Frontend
+"Cypress,Postman,Jest",QA
+"Python,SQL,NumPy,PyTorch,Testing,CSS,R",Data Science
+"Python,TensorFlow",Data Science
+"JUnit,Selenium,Testing,Cypress,Postman",QA
+"Python,PyTorch,Pandas,TensorFlow",Data Science
+"Swift,Kotlin,React Native",Mobile
+"Swift,React Native,Android,Flutter,Kotlin",Mobile
+"Cypress,JUnit,Testing,Selenium",QA
+"Docker,Jenkins",DevOps
+"ML,SQL,NumPy,Pandas,R",Data Science
+"Swift,iOS,Flutter,React Native",Mobile
+"JUnit,Selenium,Testing,Jest,Cypress",QA
+"SQL,Node.js",FullStack
+"SQL,Node.js",FullStack
+"JavaScript,Git,Node.js",FullStack
+"Node.js,React,JavaScript,TypeScript,Git",FullStack
+"CI/CD,Jenkins,Kubernetes,Terraform",DevOps
+"JUnit,Selenium,Testing,Jest,Cypress",QA
+"Node.js,React,SQL,JavaScript,TypeScript,iOS",FullStack
+"ML,NumPy,Pandas,TensorFlow",Data Science
+"CSS,JavaScript,HTML,Angular",Frontend
+"SQL,NumPy,Python,R",Data Science
+"Docker,Node.js,Terraform,AWS,Jenkins,R",DevOps
+"Linux,Jenkins,Kubernetes,Terraform",DevOps
+"Android,iOS,Kotlin,Swift",Mobile
+"Android,iOS,Kotlin",Mobile
+"ML,Python,NumPy,Pandas,R",Data Science
+"Terraform,CI/CD,Linux,AWS,Git",DevOps
+"Cypress,Jest",QA
+"Python,TypeScript,Node.js,Vue",FullStack
+"JUnit,Selenium,Testing,Jest,Postman",QA
+"Kotlin,React Native",Mobile
+"Node.js,Angular,SQL,JavaScript,TypeScript,Git",FullStack
+"Node.js,React,JavaScript,Flutter,TypeScript,Cypress,Git",FullStack
+"Postman,Selenium,PyTorch,Cypress,Jenkins",QA
+"Docker,Python,React,SQL,C#,Hibernate,Spring",Backend
+"Terraform,TensorFlow,Testing,AWS,Jenkins",DevOps
+"Git,React",FullStack
+"SQL,.NET",Backend
+"JavaScript,Git,React,TypeScript",FullStack
+"Angular,Terraform,Selenium,Sass,HTML",Frontend
+"Docker,Terraform,CI/CD,Linux,Kubernetes",DevOps
+"Swift,Android,Flutter,HTML,Jenkins,Kotlin",Mobile
+"iOS,Flutter,React Native",Mobile
+"Angular,React,JavaScript,CSS,HTML",Frontend
+"Docker,CI/CD,Linux,AWS,Jenkins",DevOps
+"Selenium,Jest",QA
+"Java,Node.js,Vue,JavaScript,.NET,Hibernate,Spring",Backend
+"ML,NumPy,Flutter,PyTorch,TensorFlow,Pandas,Jenkins",Data Science
+"JUnit,Selenium,Testing,Jest,Postman",QA
+"Swift,React Native,Android,Linux,Cypress,iOS,Kotlin",Mobile
+"Node.js,SQL,JavaScript,TypeScript,Git",FullStack
+"ML,Python,R",Data Science
+"Selenium,Jest",QA
+"Swift,Flutter",Mobile
+"Testing,Selenium",QA
+"Angular,React,CSS,Git,R",Frontend
+"SQL,ML,PyTorch,TensorFlow",Data Science
+"SQL,ML,Python,Pandas",Data Science
+"Docker,Terraform,CI/CD,AWS,Git",DevOps
+"CI/CD,Linux,Kubernetes,TypeScript,Kotlin",DevOps
+"React Native,JUnit,Selenium,Kubernetes,Postman",QA
+"Kubernetes,AWS,Terraform",DevOps
+"Node.js,React",FullStack
+"JavaScript,Node.js,React",FullStack
+"SQL,Android,Postman,iOS",Mobile
+"iOS,Flutter,React Native",Mobile
+"Node.js,NumPy,JavaScript,C#,Spring",Backend
+"Node.js,React,NumPy,Linux,TypeScript",FullStack
+"Swift,REST,React Native,Flutter,Linux,Kotlin",Mobile
+"JUnit,Selenium,Jest,Cypress,Postman",QA
+"Testing,Selenium,Jest",QA
+"Swift,React Native,Android,Flutter,iOS",Mobile
+"Cypress,JUnit,Postman",QA
+"Selenium,Testing,Jest,Cypress,Postman",QA
+"Node.js,React,SQL,JavaScript,.NET,TypeScript,Postman",FullStack
+"CSS,Python,REST,Pandas",Backend
+"JavaScript,TypeScript,Node.js",FullStack
+"Swift,Android,Flutter,iOS,Kotlin",Mobile
+"Swift,React Native,Android,AWS,Cypress,Kotlin",Mobile
+"Testing,Selenium,Jest",QA
+"Android,Flutter,Kotlin,React Native",Mobile
+"Docker,CI/CD,Kubernetes,AWS,Git",DevOps
+"Testing,Postman",QA
+"Swift,SQL,Android,JUnit,Flutter,iOS,Kotlin",Mobile
+"Swift,Android",Mobile
+"Node.js,JUnit,Flutter,Selenium,Testing,Jest,Cypress",QA
+"Java,Spring,Node.js",Backend
+"JUnit,Selenium,Testing,Jest,Cypress",QA
+"Node.js,JUnit,Selenium,Testing,Jest,Cypress,Git",QA
+"Swift,Git,SQL,Android,Flutter,Kotlin",Mobile
+"JUnit,Selenium,Testing,Jest,Postman",QA
+"Swift,Node.js,Android,Flutter,.NET,iOS,Kotlin",Mobile
+"R,NumPy,Pandas",Data Science
+"Docker,Terraform,Flutter,Pandas,Jenkins,Git",DevOps
+"Testing,Postman,Selenium,Jest",QA
+"Swift,Android,Flutter,iOS,Kotlin",Mobile
+"Testing,JUnit,Postman,Selenium",QA
+"Hibernate,Python,Node.js",Backend
+"CSS,HTML,Angular,Vue",Frontend
+"CI/CD,Docker,AWS,Terraform",DevOps
+"Angular,Vue,React,Sass,HTML",Frontend
+"CI/CD,Jenkins,AWS,Terraform",DevOps
+"JUnit,Selenium,Jest",QA
+"Angular,Vue,JavaScript,Sass,HTML",Frontend
+"ML,Python,SQL,NumPy,R",Data Science
+"CI/CD,CSS,Flutter,Kotlin",Mobile
+"Testing,JUnit,Postman,Jest",QA
+"SQL,TypeScript,React,Git",FullStack
+"Jenkins,Linux",DevOps
+"Docker,Terraform,Linux,AWS,Jenkins",DevOps
+"React,CSS,JavaScript,Vue",Frontend
+"Node.js,React,SQL,JavaScript,Git",FullStack
+"Flutter,Kotlin,React Native",Mobile
+"JavaScript,Node.js,React",FullStack
+"R,Kubernetes,React,Terraform",DevOps
+"ML,NumPy,SQL,Pandas",Data Science
+"Jenkins,Git",DevOps
+"SQL,Spring,Python",Data Science
+"Testing,JUnit,Selenium,Jest",QA
+"Android,JavaScript,CSS,HTML,R",Frontend
+"SQL,TypeScript,Node.js",FullStack
+"Swift,Flutter,Kotlin",Mobile
+"JavaScript,TypeScript,React",FullStack
+"JUnit,Selenium,Jest",QA
+"SQL,NumPy,PyTorch,Pandas,R",Data Science
+"ML,Node.js,SQL,NumPy,TensorFlow,Testing",Data Science
+"JavaScript,TypeScript,React",FullStack
+"CSS,JavaScript,HTML,Vue",Frontend
+"React Native,Android,Flutter,iOS,Kotlin",Mobile
+"CI/CD,Jenkins,Kubernetes,AWS",DevOps
+"React Native,Jenkins,Selenium,Testing,Jest,Postman",QA
+"Node.js,React,SQL,TypeScript,Git",FullStack
+".NET,C#",Backend
+"Vue,SQL,JavaScript,CSS,HTML,TypeScript",Frontend
+"Swift,Android",Mobile
+"Swift,Android,Flutter,React Native",Mobile
+"CI/CD,Flutter,Python,AWS",DevOps
+"ML,Python,PyTorch,NumPy",Data Science
+"SQL,JavaScript,Git,Node.js",FullStack
+"Testing,JUnit,Selenium",QA
+"Swift,Kotlin,React Native",Mobile
+"Python,Postman,Selenium,React",QA
+"JavaScript,HTML,Angular",Frontend
+"Angular,Vue,Sass,CSS,HTML",Frontend
+".NET,REST",Backend
+"Swift,Python,SQL,NumPy,TensorFlow,Postman,R",Data Science
+"Node.js,Terraform,SQL,JavaScript,CSS,Git",FullStack
+"SQL,NumPy,R,TensorFlow",Data Science
+"JUnit,Selenium,Testing,Cypress,Postman",QA
+"Testing,HTML,AWS,Jest,Postman",QA
+"Python,Node.js,React,TypeScript,Git",FullStack
+"Angular,Node.js,React,JavaScript,C#,Git",FullStack
+"Java,Docker,CI/CD,CSS,Jenkins,Git",DevOps
+"Linux,AWS",DevOps
+"React,SQL,JavaScript,TypeScript,Git",FullStack
+"CI/CD,Jenkins",DevOps
+"Testing,JUnit",QA
+"ML,NumPy,Pandas",Data Science
+"SQL,JavaScript,Git",FullStack
+"Angular,JavaScript,Sass,TypeScript,HTML",Frontend
+"Docker,NumPy,Testing,Kubernetes,Jenkins",DevOps
+"ML,NumPy,TensorFlow,Pandas,R",Data Science
+"Vue,JavaScript,TypeScript,React",Frontend
+"Flutter,Kotlin,React Native",Mobile
+"Testing,Postman,Jest",QA
+"SQL,Hibernate,JavaScript,PyTorch",FullStack
+"CI/CD,Linux,.NET,Kubernetes,Spring,Jenkins,Git",DevOps
+"Android,React Native",Mobile
+"Node.js,REST,SQL,Flutter,.NET,Hibernate,iOS",Backend
+".NET,Spring,Python",Backend
+"CSS,JavaScript,HTML",Frontend
+"JUnit,Postman,TypeScript,C#",QA
+"TypeScript,React",Frontend
+"iOS,React Native",Mobile
+"JavaScript,Git,TypeScript",FullStack
+"ML,SQL,NumPy,TensorFlow,Pandas,Spring",Data Science
+"Python,SQL,NumPy,TensorFlow,R",Data Science
+"Swift,Android,Flutter,iOS",Mobile
+"Cypress,Testing",QA
+"Android,Kotlin",Mobile
+"Docker,Jenkins,Kubernetes,Terraform",DevOps
+"Node.js,React,SQL,TypeScript,Git",FullStack
+"Java,REST,Vue,Hibernate,iOS,Spring",Backend
+"Java,Python,SQL,.NET,Hibernate",Backend
+"Swift,SQL,NumPy,TensorFlow,TypeScript",Data Science
+"ML,SQL,PyTorch,Pandas,R",Data Science
+"CI/CD,Linux",DevOps
+"Testing,JUnit,NumPy,TensorFlow",QA
+"SQL,Hibernate,C#",Backend
+"Java,Node.js,React Native,.NET,Spring",Backend
+"SQL,JavaScript,Node.js,React",FullStack
+"Selenium,Testing,Jest,Cypress,Postman",QA
+"R,NumPy,Pandas,TensorFlow",Data Science
+"ML,REST,NumPy,Testing,Pandas",Data Science
+"HTML,Vue",Frontend
+"Git,Terraform",DevOps
+"ML,Python,SQL,Selenium,AWS,Pandas,R",Data Science
+"Java,Python,Node.js,Terraform,iOS",Backend
+"Kotlin,React Native",Mobile
+"Sass,TypeScript",Frontend
+"Node.js,SQL,JavaScript,Hibernate,Git",FullStack
+"Python,C#",Backend
+"Terraform,Linux,.NET,Kubernetes,AWS,Spring",DevOps
+"Java,Python,SQL,Sass,Git",Backend
+"Java,Python,Node.js,C#,.NET",Backend
+"Terraform,Kubernetes,AWS,Jenkins,Git",DevOps
+"JavaScript,HTML",Frontend
+"Docker,CI/CD,Kubernetes,AWS,Jenkins",DevOps
+"SQL,JavaScript,Git,R",FullStack
+"Swift,React Native,Flutter,iOS,Kotlin",Mobile
+"Python,Pandas,TensorFlow",Data Science
+"CI/CD,Docker,Kubernetes,Terraform",DevOps
+"SQL,Jenkins,Git,PyTorch",Data Science
+"JUnit,Selenium,Jest,Git,R",QA
+"React,Kotlin,Node.js,React Native",Mobile
+"Swift,Flutter,React Native",Mobile
+"Java,C#",Backend
+"Java,Node.js,SQL,.NET,Spring",Backend
+"Python,Angular,React,SQL,Sass,CSS",Frontend
+"Testing,JUnit,Postman,Cypress",QA
+"ML,JavaScript,PyTorch,TensorFlow,Cypress,R",Data Science
+"ML,NumPy,R",Data Science
+"Angular,Vue,JavaScript,CSS,TypeScript",Frontend
+"Java,Python,REST,SQL,.NET",Backend
+"iOS,Flutter",Mobile
+"Hibernate,Spring,Node.js",Backend
+"SQL,Java,Spring,Python",Backend
+".NET,Spring,Node.js,Java",Backend
+"Terraform,CI/CD,AWS,Jenkins,Git",DevOps
+"Java,Python,Node.js,C#,Hibernate",Backend
+"ML,Python,Angular,NumPy,TensorFlow,.NET",Data Science
+"Swift,Spring,Git,React Native",Mobile
+"Docker,Kubernetes,Terraform",DevOps
+"Node.js,NumPy,JavaScript,CSS,TypeScript",Frontend
+"JavaScript,TypeScript,Node.js,React",FullStack
+"Swift,React Native,Android,iOS,Kotlin",Mobile
+"JUnit,Selenium,Testing,Cypress,Postman",QA
+"Node.js,REST,C#,.NET,Spring",Backend
+"SQL,JavaScript,Git,Node.js",FullStack
+"Jenkins,CI/CD,Docker,AWS",DevOps
+"SQL,NumPy,Python",Data Science
+"Swift,JavaScript,Kubernetes,React",FullStack
+"Sass,TypeScript",Frontend
+"Swift,Android,Flutter,iOS,Kotlin",Mobile
+"Cypress,Flutter,SQL,Jest",QA
+"Angular,Android,Flutter,CSS,iOS",Mobile
+"Testing,Postman,Selenium",QA
+"React,SQL,JavaScript,TypeScript,Git",FullStack
+"Swift,Java,React Native,Flutter,Jest,iOS,Kotlin",Mobile
+"Node.js,React Native,REST,Android,Flutter,iOS,Kotlin",Mobile
+"Cypress,JUnit,Postman,Selenium",QA
+"Docker,Terraform,CI/CD,Kubernetes,AWS",DevOps
+"Node.js,React,SQL,JavaScript,Git",FullStack
+"Docker,Jenkins,Git,AWS",DevOps
+"CI/CD,Selenium,PyTorch,Testing,Jest,Cypress,Postman",QA
+"ML,React,Terraform,NumPy,PyTorch,Pandas,R",Data Science
+"Cypress,Selenium",QA
+"Node.js,React,SQL,JavaScript,C#,TypeScript,HTML",FullStack
+"Sass,Docker,PyTorch,React",Frontend
+"ML,Python,NumPy,Pandas,R",Data Science
+"React Native,Android,Flutter,Sass,Jest,iOS,Kotlin",Mobile
+"Java,REST,Hibernate,Pandas,Spring,R",Backend
+"Git,React,TypeScript",FullStack
+"Android,Kotlin",Mobile
+"Vue,Angular,React",Frontend
+"NumPy,PyTorch,Pandas,TensorFlow",Data Science
+"Docker,Linux,Git,Terraform",DevOps
+"SQL,Git,React,TypeScript",FullStack
+"Git,AWS",DevOps
+"Testing,JUnit,Selenium,Jest",QA
+"JavaScript,TypeScript",Frontend
+"Sass,Vue",Frontend
+"Docker,Terraform,Linux,Kubernetes,Git",DevOps
+"Node.js,SQL,Postman,Git,R",FullStack
+"Swift,iOS,Flutter,Kotlin",Mobile
+"React,Sass,JavaScript,Vue",Frontend
+"Sass,JavaScript,TypeScript,Vue",Frontend
+"ML,Python,SQL,PyTorch,R",Data Science
+"CSS,TypeScript",Frontend
+"Hibernate,Python,C#",Backend
+"React Native,Android,Flutter,iOS,Kotlin",Mobile
+"Vue,Sass,HTML,React",Frontend
+"Node.js,Selenium,Hibernate,Cypress,Postman",QA
+"Swift,React Native,Flutter,iOS,Kotlin",Mobile
+"SQL,Java,Python,Node.js",Backend
+"Hibernate,C#",Backend
+"SQL,Python,PyTorch,TensorFlow",Data Science
+"Swift,Vue,React",Frontend
+"Swift,iOS,Flutter,React Native",Mobile
+"TypeScript,Angular,React",Frontend
+"CSS,TypeScript,React",Frontend
+"R,Pandas",Data Science
+"Swift,Android",Mobile
+"JavaScript,Git",FullStack
+"CI/CD,Postman,Linux,CSS",DevOps
+".NET,Spring,Node.js,REST",Backend
+"Swift,Android,Flutter",Mobile
+"Postman,Selenium",QA
+"Cypress,JUnit,Postman,Selenium",QA
+"Sass,Angular",Frontend
+"Docker,Terraform,CI/CD,Jest,Git",DevOps
+"Linux,Kubernetes,Terraform",DevOps
+"TypeScript,React",FullStack
+"ML,Python,Terraform,NumPy,Kubernetes,Pandas",Data Science
+"Testing,Postman,Jest,Cypress",QA
+"Docker,Node.js,Vue,JavaScript,HTML",Frontend
+"Docker,Python,PyTorch,TensorFlow,Jenkins,R",Data Science
+"Node.js,React,Angular,REST,JavaScript,TypeScript,Git",FullStack
+"CI/CD,Linux,Kubernetes,AWS,Jenkins",DevOps
+"Python,CI/CD,Testing,Jest,Postman",QA
+"Java,Hibernate,Node.js,REST",Backend
+"JavaScript,Git,React",FullStack
+"Git,Node.js,React",FullStack
+"Testing,Selenium",QA
+"Docker,CI/CD,Kubernetes,AWS,Jenkins",DevOps
+"SQL,PyTorch",Data Science
+"Node.js,Terraform,CI/CD,Flutter,Kubernetes",DevOps
+"JUnit,Selenium,Testing,Jest,Postman",QA
+"Docker,Terraform",DevOps
+"Swift,iOS,Kotlin,React Native",Mobile
+"ML,Python,PyTorch,Pandas",Data Science
+"Java,JUnit,JavaScript,Testing,Jest,Cypress,Postman",QA
+"Python,Angular,SQL,NumPy,TensorFlow,Pandas",Data Science
+"Docker,AWS,Terraform",DevOps
+"TypeScript,Angular",Frontend
+"Python,JUnit,Testing,TypeScript,Jest",QA
+"Postman,Jest",QA
+"Swift,Android,Flutter",Mobile
+"Terraform,Linux,Kubernetes,AWS,Git",DevOps
+"Python,Node.js,React,SQL,TypeScript,Git",FullStack
+"Kubernetes,CI/CD,Linux,Git",DevOps
+"Node.js,React Native,React,SQL,Selenium,Git",FullStack
+"CSS,JavaScript,HTML",Frontend
+"SQL,Pandas,TensorFlow",Data Science
+"SQL,R",Data Science
+"Swift,React Native,Android,iOS,Kotlin",Mobile
+"Java,Python,Node.js,SQL,Spring",Backend
+"ML,JUnit,Selenium,Jest,Git",QA
+"JavaScript,TypeScript",Frontend
+"Swift,Flutter,Kotlin",Mobile
+"Testing,Postman,Selenium,Jest",QA
+"Cypress,Testing,JUnit,Jest",QA
+"Swift,React Native,Android,iOS,Kotlin",Mobile
+"SQL,Jenkins,Angular,Vue",Frontend
+"REST,React,SQL,.NET,Hibernate,Spring,Git",Backend
+"Docker,Kubernetes,AWS",DevOps
+"JUnit,Android,PyTorch,Testing,Cypress,Postman",QA
+"CSS,TypeScript,Angular",Frontend
+"React Native,Android,Flutter,iOS,Kotlin",Mobile
+"SQL,NumPy,R",Data Science
+"SQL,JavaScript,TypeScript,Node.js",FullStack
+"ML,SQL,PyTorch,TensorFlow,R",Data Science
+"Swift,iOS,Flutter,Kotlin",Mobile
+"Angular,React,SQL,JavaScript,iOS",FullStack
+"Android,Kotlin",Mobile
+"JavaScript,Git,Node.js",FullStack
+"Python,Node.js,Selenium,Testing,Jest,Cypress,Postman",QA
+".NET,Python",Backend
+"Swift,Flutter,React Native",Mobile
+"Docker,Terraform,CI/CD,Linux,Git",DevOps
+"Swift,Kotlin",Mobile
+"Cypress,JUnit",QA
+"Cypress,Testing,JUnit,Selenium",QA
+"Postman,Selenium",QA
+"Java,Angular,Vue,SQL,JavaScript,CSS,Sass",Frontend
+"Testing,Cypress,Jest",QA
+"Kubernetes,CSS,Linux,R",DevOps
+"Kubernetes,AWS,Terraform",DevOps
+"ML,SQL,NumPy,C#,R",Data Science
+"Linux,Git",DevOps
+"SQL,Python,Node.js",Backend
+"React,Terraform,JavaScript,PyTorch,Git",FullStack
+"Kubernetes,Jenkins,Linux,Git",DevOps
+"ML,Python,Pandas,TensorFlow",Data Science
+"Swift,Angular,Vue,JavaScript,Flutter,CSS,TypeScript",Frontend
+"SQL,NumPy,Python,ML",Data Science
+"Python,Node.js,Angular,C#,Hibernate,CSS",Backend
+"Cypress,Jest",QA
+"Swift,Android,React Native",Mobile
+"Swift,ML,React Native,SQL,Android,iOS,Kotlin",Mobile
+"Angular,React,Vue,CSS,HTML",Frontend
+"Cypress,Postman,Selenium",QA
+"Flutter,Kotlin,React Native",Mobile
+"JUnit,Selenium,Testing,Jest,Cypress",QA
+"Sass,HTML,TypeScript,React",Frontend
+"SQL,JavaScript,Node.js,React",FullStack
+"Flutter,Kotlin,React Native",Mobile
+"Cypress,JUnit",QA
+"Java,Vue,JavaScript,CSS,TypeScript,HTML",Frontend
+"Angular,React,Vue,CSS,Sass",Frontend
+"JavaScript,CSS,Sass,Jest,R",Frontend
+"CI/CD,Terraform,Kubernetes,Git",DevOps
+"Android,Flutter,Kotlin",Mobile
+"CSS,JavaScript,Vue",Frontend
+"Docker,React Native,Android,JavaScript,iOS",Mobile
+"CI/CD,CSS,Kotlin,React Native",Mobile
+"Swift,Vue,Android,Flutter,Testing,iOS,Kotlin",Mobile
+"SQL,TypeScript,Node.js,React",FullStack
+"Angular,React,JavaScript,Sass,TypeScript",Frontend
+"Swift,Python,Git,Android,Flutter,iOS,Kotlin",Mobile
+"Testing,Postman",QA
+"Flutter,Kotlin",Mobile
+"ML,Jenkins,Kotlin,Pandas",Data Science
+"ML,Pandas",Data Science
+"Testing,JUnit,Postman",QA
+"Hibernate,Spring",Backend
+"CI/CD,Git,AWS",DevOps
+"CI/CD,Jenkins,Linux,Terraform",DevOps
+"Swift,iOS,Flutter,Kotlin",Mobile
+"Swift,React Native,Flutter,iOS,Kotlin",Mobile
+"JUnit,Selenium,Testing,Jest,Postman",QA
+"Node.js,React Native,JavaScript,Testing,TypeScript",FullStack
+"Java,TypeScript,Node.js",FullStack
+"Cypress,Postman,Jest",QA
+"SQL,Python,R",Data Science
+"Docker,Linux,Kubernetes,Jenkins,Git",DevOps
+"CI/CD,Terraform",DevOps
+"Testing,JUnit,Selenium,Jest",QA
+"Java,Terraform,SQL,C#,iOS,Spring",Backend
+"Node.js,React,SQL,JavaScript,.NET,TypeScript",FullStack
+"Swift,Python,React Native,JavaScript,iOS,Kotlin",Mobile
+"Android,Flutter,Kotlin",Mobile
+"Kubernetes,Linux",DevOps
+"Node.js,JavaScript,C#,.NET,Hibernate,Testing",Backend
+"JUnit,Cypress,Spring,Postman,Git",QA
+"Spring,Hibernate,Node.js,REST",Backend
+"CSS,JavaScript,TypeScript,Vue",Frontend
+"Testing,JUnit,Selenium,Jest",QA
+"Testing,Postman,Selenium,Cypress",QA
+"JavaScript,TypeScript,Angular,Vue",Frontend
+"HTML,Vue,TypeScript",Frontend
+"JavaScript,Angular,React",Frontend
+"Java,Python,REST,C#,Hibernate",Backend
+"Jenkins,Kubernetes,AWS,Linux",DevOps
+"Testing,Postman,Cypress",QA
+"Swift,React Native",Mobile
+"JavaScript,Git,Node.js",FullStack
+"REST,C#",Backend
+"SQL,ML,NumPy,TensorFlow",Data Science
+"Kubernetes,CI/CD,Jenkins,Git",DevOps
+"Git,Node.js,React,TypeScript",FullStack
+"Angular,React Native,Vue,SQL,JavaScript",Frontend
+"Selenium,Testing,Jest,Cypress,Postman",QA
+"CI/CD,Git,Terraform",DevOps
+"Android,Flutter",Mobile
+".NET,SQL,REST",Backend
+"Jenkins,Linux,AWS,Terraform",DevOps
+"Testing,JUnit,Postman,Cypress",QA
+"ML,SQL,TypeScript,Git,R",FullStack
+"Python,SQL,NumPy,PyTorch,TensorFlow",Data Science
+"Sass,JavaScript,HTML",Frontend
+"Jenkins,Kubernetes",DevOps
+"SQL,NumPy,R,TensorFlow",Data Science
+"SQL,NumPy,PyTorch,Pandas,R",Data Science
+"JavaScript,Vue",Frontend
+"ML,PyTorch",Data Science
+"SQL,Java",Backend
+"Kubernetes,AWS",DevOps
+"Python,Node.js,C#,.NET,Spring",Backend
+"React,TypeScript,Vue",Frontend
+"Cypress,JUnit,Postman,Jest",QA
+"SQL,Git,Node.js",FullStack
+"Node.js,React,SQL,TypeScript,Git",FullStack
+"JUnit,Postman",QA
+"SQL,Python,Pandas",Data Science
+"JUnit,Postman,Jest",QA
+"Node.js,React,SQL,JavaScript,TypeScript",FullStack
+"Cypress,JUnit",QA
+"Swift,React Native,Flutter,JavaScript,Sass,iOS,Kotlin",Mobile
+"Python,Node.js,React Native,SQL,C#,.NET",Backend
+"Selenium,Jest",QA
+"Node.js,React,SQL,TypeScript,Git",FullStack
+"Java,Hibernate,Kubernetes,AWS,Spring",Backend
+"Angular,React,JavaScript,Sass,TypeScript",Frontend
+"SQL,PyTorch,TensorFlow,Pandas,R",Data Science
+"Java,Python,SQL,CSS,Spring",Backend
+"Java,Terraform,SQL,CI/CD,AWS",DevOps
+"Python,Selenium,HTML,Jest,Postman",QA
+"CI/CD,Jenkins",DevOps
+"Python,React,SQL,TensorFlow,Pandas,R",Data Science
+"Python,SQL,.NET,Sass,Spring,R",Backend
+"Angular,Vue,React,JavaScript,TypeScript",Frontend
+"CSS,Kotlin,React,Selenium",Frontend
+"Sass,HTML,TypeScript,Angular",Frontend
+"Swift,Android,Kotlin,iOS",Mobile
+"TypeScript,Node.js",FullStack
+"Android,iOS,Flutter,React Native",Mobile
+"ML,Node.js,React Native,React,JavaScript",FullStack
+"Swift,React Native,Flutter,iOS,Kotlin",Mobile
+"Kubernetes,Docker,Linux,AWS",DevOps
+"Postman,JUnit,NumPy,Testing,Cypress,Jenkins",QA
+"React,SQL,JavaScript,PyTorch,TypeScript",FullStack
+"SQL,Android,HTML,Git",FullStack
+"Node.js,React,SQL,TypeScript,Git",FullStack
+"Hibernate,Spring",Backend
+"Sass,Angular,React",Frontend
+"SQL,REST",Backend
+"Java,React,SQL,JavaScript,CSS,TypeScript",FullStack
+"Node.js,React,JavaScript,C#,Testing,TypeScript,Git",FullStack
+"ML,Pandas",Data Science
+"JavaScript,Angular",Frontend
+"CI/CD,Linux,Git",DevOps
+"Node.js,SQL,Flutter,Selenium,Git",FullStack
+"ML,Python,PyTorch,Pandas,R",Data Science
+"Node.js,React Native,SQL,PyTorch,Git",FullStack
+"CI/CD,NumPy,Selenium,PyTorch,Pandas,R",Data Science
+"Terraform,NumPy,Sass,CSS,TypeScript",Frontend
+"Docker,Terraform,AWS,Jenkins,Git",DevOps
+"React Native,Android,PyTorch,CSS,Kotlin",Mobile
+"Java,Hibernate,Python,REST",Backend
+"CSS,Sass,Vue",Frontend
+"ML,SQL,CI/CD,PyTorch,.NET,Pandas",Data Science
+"JUnit,Selenium,Testing,Jest,Postman",QA
+"JUnit,Selenium,Testing,Jest,Postman",QA
+"Cypress,NumPy,Selenium,TypeScript",QA
+"Java,Hibernate,Python,.NET",Backend
+"Python,Android,Flutter,TensorFlow,R",Data Science
+"Postman,Selenium",QA
+"Docker,Jenkins,AWS",DevOps
+"SQL,Node.js",FullStack
+"Terraform,CI/CD,Kubernetes,AWS,Git",DevOps
+"SQL,Git,TypeScript",FullStack
+"Python,SQL,NumPy,Pandas,R",Data Science
+"Kubernetes,Jenkins,Git,AWS",DevOps
+".NET,Python,Node.js,C#",Backend
+"CI/CD,Kubernetes",DevOps
+"JavaScript,Angular",Frontend
+"Android,Kotlin,React Native",Mobile
+"SQL,Hibernate,Python,Java",Backend
+"Swift,iOS,React Native",Mobile
+"Android,Flutter,Kotlin",Mobile
+"TypeScript,React",FullStack
+"Sass,JavaScript,HTML,React",Frontend
+"JavaScript,Git,Node.js,React",FullStack
+"Node.js,React,JavaScript,TypeScript,iOS,Git",FullStack
+"Sass,JavaScript,CSS",Frontend
+"JavaScript,HTML,Angular,TypeScript",Frontend
+"SQL,Git,React,TypeScript",FullStack
+".NET,Java,Python,REST",Backend
+"ML,Python,PyTorch,TensorFlow,R",Data Science
+"Swift,Flutter,React Native",Mobile
+"CSS,TypeScript,Vue",Frontend
+"React Native,JavaScript,Hibernate,CSS,TypeScript",Frontend
+"Cypress,Selenium,Jest",QA
+"React,iOS,Spring,React Native",Mobile
+"Python,JUnit,Selenium,TypeScript,Jest,Postman",QA
+"Sass,TypeScript,Angular",Frontend
+"Swift,iOS,Kotlin,React Native",Mobile
+"JavaScript,React",FullStack
+"Jenkins,Git,Terraform",DevOps
+"JUnit,Selenium,Testing,Jest,Postman",QA
+"CI/CD,Linux",DevOps
+"CI/CD,JavaScript,Testing,TypeScript,Git",FullStack
+"CI/CD,NumPy,Selenium,Kubernetes,Jenkins,Git",DevOps
+"SQL,JavaScript,Node.js,React",FullStack
+"CI/CD,Linux",DevOps
+"SQL,Node.js",FullStack
+"TypeScript,React",FullStack
+"ML,NumPy,PyTorch,TensorFlow",Data Science
+"Java,SQL,PyTorch,Hibernate,Sass",Backend
+"JUnit,Postman,Jest",QA
+"Vue,React,Sass,CSS,HTML",Frontend
+"SQL,JavaScript,Git",FullStack
+"JUnit,CI/CD,Linux,TypeScript,Kubernetes,Git",DevOps
+"Angular,Vue,React,JavaScript,TypeScript",Frontend
+"Vue,HTML,React",Frontend
+"JUnit,Selenium,Testing,Jest,Postman",QA
+"Testing,Postman,Selenium,Cypress",QA
+"Node.js,SQL,C#,.NET,Hibernate",Backend
+"Python,JUnit,Docker,Kubernetes",DevOps
+"SQL,JavaScript,TypeScript",FullStack
+"Pandas,TensorFlow",Data Science
+"Swift,Android,Flutter,React Native",Mobile
+"CSS,Sass,JavaScript",Frontend
+"Swift,Node.js,React Native,Flutter,TensorFlow",Mobile
+"Python,NumPy,PyTorch,.NET,Kubernetes,Pandas",Data Science
+"Kubernetes,AWS,Git",DevOps
+"CI/CD,Docker,Linux",DevOps
+"SQL,ML,Node.js,AWS",FullStack
+"Swift,Android,Kotlin,React Native",Mobile
+"Java,Terraform,Linux,Kubernetes,HTML,Jenkins,Git",DevOps
+"SQL,Spring,Postman,R",Backend
+"Docker,Terraform,Linux,Kubernetes,AWS",DevOps
+"Vue,CSS,TypeScript,React",Frontend
+"Android,Kotlin,React Native,iOS",Mobile
+"iOS,Kotlin",Mobile
+"ML,Python,NumPy,PyTorch,Pandas",Data Science
+"Docker,Terraform,CI/CD,TensorFlow,Jenkins,Git",DevOps
+"SQL,JavaScript,Git,Node.js",FullStack
+"ML,Python,NumPy,TensorFlow",Data Science
+"Linux,Kubernetes,Terraform",DevOps
+"Testing,JUnit,Selenium,Jest",QA
+"CI/CD,Git,AWS",DevOps
+"ML,Python,Node.js,Flutter,TensorFlow",Data Science
+"Swift,Flutter",Mobile
+"ML,Python,React,SQL,TensorFlow,Hibernate,Pandas",Data Science
+"SQL,Sass,HTML,React",Frontend
+"Java,Python,Node.js,C#,TypeScript,Spring",Backend
+"JUnit,PyTorch,Testing,HTML,Cypress,Postman",QA
+"CSS,Sass,HTML,Vue",Frontend
+"NumPy,Python,TensorFlow",Data Science
+"Swift,iOS",Mobile
+"SQL,NumPy,R,TensorFlow",Data Science
+"SQL,Java,Spring,Node.js",Backend
+"JavaScript,Node.js",FullStack
+"Terraform,CI/CD,Linux,AWS,Git",DevOps
+"SQL,PyTorch,R,Pandas",Data Science
+"JUnit,Selenium,Testing,Jest,Cypress",QA
+"ML,Vue,Android,NumPy,TensorFlow,Pandas,R",Data Science
+"SQL,JavaScript,Node.js,React",FullStack
+"SQL,Hibernate,Spring,REST",Backend
+"ML,SQL,CI/CD,PyTorch,R",Data Science
+"SQL,React",FullStack
+"Swift,React Native,Android,NumPy,.NET,iOS,Kotlin",Mobile
+"NumPy,PyTorch,Pandas",Data Science
+"Pandas,R,TensorFlow",Data Science
+"Node.js,Vue,SQL,JavaScript,TensorFlow,TypeScript,Git",FullStack
+"NumPy,Kubernetes,PyTorch,Git",DevOps
+"Testing,Jenkins,Kubernetes,Postman",DevOps
+"Selenium,Jest",QA
+"ML,SQL,NumPy,TensorFlow,Pandas",Data Science
+"SQL,JavaScript,Node.js,React",FullStack
+"React Native,Android,Flutter,iOS,Kotlin",Mobile
+"Android,Flutter,Kotlin,React Native",Mobile
+"Swift,React Native,Flutter,iOS,Kotlin",Mobile
+"Sass,TypeScript,Angular",Frontend
+"JUnit,Postman,Selenium,Jest",QA
+"Java,Flutter,Python,TypeScript",Backend
+"Swift,JavaScript,Selenium,Vue",Frontend
+"CI/CD,Jenkins,Linux",DevOps
+"Docker,Terraform,CI/CD,Kubernetes,Git",DevOps
+"Cypress,JUnit,Jest",QA
+"Android,Flutter,Kotlin,React Native",Mobile
+"React Native,Android,Flutter,iOS,Kotlin",Mobile
+"SQL,C#",Backend
+"SQL,Testing,Git,TensorFlow",FullStack
+"Java,Hibernate,REST,C#",Backend
+"Jenkins,Git,AWS,Terraform",DevOps
+"SQL,JavaScript,Git,React",FullStack
+"Swift,React Native,Android,Testing,Spring",Mobile
+"ML,Python,SQL,NumPy,TensorFlow",Data Science
+"Swift,Android,Kotlin,React Native",Mobile
+"Sass,Angular,Vue",Frontend
+"JavaScript,TypeScript,Node.js",FullStack
+"Python,REST,SQL,Android,NumPy",Backend
+"Node.js,React,SQL,TypeScript,Git",FullStack
+"ML,Python",Data Science
+"Kubernetes,Jenkins,Git,Linux",DevOps
+"Node.js,React,SQL,TypeScript,Git",FullStack
+"JUnit,JavaScript,Selenium,Testing,AWS,Jest,Postman",QA
+"SQL,JavaScript,Git,React",FullStack
+"Swift,React Native,Flutter,iOS,Kotlin",Mobile
+"Sass,JavaScript,TypeScript,React",Frontend
+"SQL,Node.js",Backend
+"SQL,Python,PyTorch,Pandas",Data Science
+"Swift,Android,Kotlin",Mobile
+"Swift,Vue,Flutter,Jest,iOS",Mobile
+"Docker,Python,React Native,NumPy,PyTorch,R",Data Science
+"React,SQL,NumPy,JavaScript,TypeScript",FullStack
+".NET,Java,Python,C#",Backend
+"Angular,React,Vue,JavaScript,HTML",Frontend
+"CI/CD,Kubernetes,Git",DevOps
+".NET,Spring,TypeScript,Angular",Backend
+"JavaScript,React",Frontend
+"React,JavaScript,CSS,Sass,TypeScript,Kotlin",Frontend
+"Docker,SQL,CI/CD,Linux,Kubernetes,Jenkins,Kotlin",DevOps
+"Android,Flutter,Kotlin,React Native",Mobile
+"SQL,Node.js,React",FullStack
+"Node.js,JUnit,Selenium,Testing,HTML,Jest,Cypress",QA
+"ML,PyTorch,TensorFlow,Pandas,R",Data Science
+"React,SQL,JavaScript,TypeScript,Git",FullStack
+"Android,JUnit,Flutter,TensorFlow,Kotlin",Mobile
+"Docker,Python,Terraform,Android,AWS,Jenkins,Git",DevOps
+"SQL,Hibernate,ML,Node.js",Backend
+"JavaScript,Git,TypeScript",FullStack
+"Java,Node.js,REST,C#,Spring",Backend
+"JavaScript,React",FullStack
+"Angular,React",Frontend
+"Testing,Postman,Selenium",QA
+"Swift,Vue,JUnit,Selenium,Testing,Cypress,Postman",QA
+"ML,TensorFlow",Data Science
+"Kubernetes,Git,Linux",DevOps
+"Android,iOS,Testing,Selenium",Mobile
+"CI/CD,Docker,Jenkins",DevOps
+"CSS,HTML",Frontend
+"Selenium,Testing,Jest,Cypress,Postman",QA
+"Linux,AWS,Git",DevOps
+"Angular,Vue,JavaScript,TypeScript,HTML",Frontend
+"CSS,Angular,React",Frontend
+"JUnit,Postman,Selenium",QA
+"SQL,Hibernate,Spring",Backend
+".NET,Node.js",Backend
+"Python,Angular,Vue,NumPy,Pandas,R",Data Science
+"Cypress,Postman",QA
+"Angular,Vue,CI/CD,JavaScript,Sass,HTML,R",Frontend
+"REST,SQL,JavaScript,C#,CSS",Backend
+"Swift,Android,Flutter,iOS,Kotlin",Mobile
+"ML,NumPy,R",Data Science
+"ML,Python,R",Data Science
+"Spring,Python,REST,C#",Backend
+"Angular,Vue,JUnit,CSS,HTML,Postman",Frontend
+"CSS,HTML,Angular",Frontend
+"Angular,React,Vue,Sass,HTML",Frontend
+"Docker,Linux,AWS",DevOps
+"SQL,Java",Backend
+"Docker,Terraform,CI/CD,Kubernetes,Jenkins",DevOps
+"Python,REST,SQL,C#,Spring",Backend
+"SQL,.NET",Backend
+"Android,CI/CD,Jenkins,Vue",DevOps
+"Testing,JUnit,Postman,Jest",QA
+"React,SQL,JavaScript,Testing,TypeScript,Jest",FullStack
+"React Native,Android,C#,Jenkins,Kotlin",Mobile
+"JavaScript,Git,Node.js,TypeScript",FullStack
+"Python,Node.js,.NET,Hibernate,Git,R",Backend

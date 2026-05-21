@@ -1,1 +1,13 @@
-<router-outlet></router-outlet>
+<router-outlet />
+
+<button
+  mat-icon-button
+  class="theme-toggle"
+  (click)="themeService.toggle()"
+  [matTooltip]="themeService.isDark() ? 'Switch to light mode' : 'Switch to dark mode'"
+  aria-label="Toggle light/dark mode"
+>
+  <mat-icon>{{ themeService.isDark() ? 'light_mode' : 'dark_mode' }}</mat-icon>
+</button>
+
+<app-chat-panel />

@@ -1,0 +1,25 @@
+<h2 mat-dialog-title>Project Prediction — {{ data.personName }}</h2>
+
+<mat-dialog-content>
+  @if (isLoading()) {
+    <div class="loading-wrap">
+      <mat-spinner diameter="40" />
+    </div>
+  }
+
+  @if (!isLoading() && errorMessage()) {
+    <p class="error-msg">{{ errorMessage() }}</p>
+  }
+
+  @if (!isLoading() && result()) {
+    <div class="result">
+      <p><strong>Skills:</strong> {{ result()!.skills.join(', ') }}</p>
+      <p><strong>Predicted Type:</strong> {{ result()!.projectType }}</p>
+      <p><strong>Confidence:</strong> {{ (result()!.confidence * 100).toFixed(0) }}%</p>
+    </div>
+  }
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button (click)="close()">Close</button>
+</mat-dialog-actions>
